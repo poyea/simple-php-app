@@ -39,7 +39,7 @@
       function runRead(){
               ob_end_clean();
               echo "<br/>";
-              $file = new SplFileObject('saved.txt');
+              $file = new SplFileObject('mnt/saved.txt');
               while (!$file->eof()) {
                       echo $file->fgets();
                       echo "<br/>";
