@@ -3,14 +3,14 @@
       <title>WRITE AND READ FORM</title>
    </head>
    <body>
-      <p>WRITE</p>
-      <form action="new.php?set=true" method="POST">
+      <p>INDEX 2 (SHARED STORAGE) WRITE</p>
+      <form action="index2.php?set=true" method="POST">
          <input name="field1" type="text" style="line-height: 5em;" />
          <input type="submit" name="submit" value="Save Data">
       </form>
       <br />
       <p>READ</p>
-      <form action="new.php?get=true" method="POST">
+      <form action="index2.php?get=true" method="POST">
          <input type="submit" name="get" value="Get Data">
       </form>
    </body>
