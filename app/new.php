@@ -33,12 +33,14 @@ if (isset($_GET['set'])){
 }
 
 
-
-
 function runRead(){
 	ob_end_clean();
 	echo "<br/>";
-	echo file_get_contents('saved.txt');
+	$file = new SplFileObject('saved.txt);
+	while (!$file->eof()) {
+		echo $file->fgets();
+	}
+	$file = null;
 	echo "<br/>";
 }
 
