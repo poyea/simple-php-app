@@ -7,7 +7,7 @@
 </form><br />
 <p>READ</p>
 <form action="new.php?get=true" method="POST">
-        <input type="get" name="get" value="Get Data">
+        <input type="submit" name="get" value="Get Data">
 </form>
 </body>
 <?php
