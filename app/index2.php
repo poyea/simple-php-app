@@ -3,7 +3,9 @@
       <title>WRITE AND READ FORM</title>
    </head>
    <body>
-      <p>INDEX 2 (SHARED STORAGE) WRITE</p>
+      <h1>Ops DEMO (<font color="red">With</font> persistent volume)</h1>
+      <a href="index.php">switch to normal</a>
+      <p>WRITE</p>
       <form action="index2.php?set=true" method="POST">
          <input name="field1" type="text" style="line-height: 5em;" />
          <input type="submit" name="submit" value="Save Data">
